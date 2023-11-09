@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>3D Shapes Drag & Drop</title>
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+      }
+      .controls {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <div class="controls">
+      <button onclick="addCube()">Add Cube</button>
+      <button onclick="addSphere()">Add Sphere</button>
+      <button onclick="addCone()">Add Cone</button>
+      <button onclick="addCylinder()">Add Cylinder</button>
+      <button onclick="addPyramid()">Add Pyramid</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
